@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom Rules" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+Ensemble des 20 règles envisagées pour le projet modélisation
+    </description>
+
+<!-- 1 -->
+<rule ref="category/java/design.xml/GodClass"/>
+<!-- 2 -->
+<rule ref="category/java/design.xml/TooManyFields">
+    <properties>
+        <property name="maxfields" value="10"/>
+    </properties>
+</rule>
+<!-- 3 -->
+<rule ref="category/java/design.xml/TooManyMethods">
+    <properties>
+        <property name="maxmethods" value="15"/>
+    </properties>
+</rule>
+<!-- 4 -->
+<rule ref="category/java/bestpractices.xml/ForLoopCanBeForeach"/>
+<!-- 5 -->
+<rule ref="category/java/codestyle.xml/ShortMethodName">
+    <properties>
+        <property name="minimum" value="3"/>
+    </properties>
+</rule>
+<!-- 6 -->
+<rule ref="category/java/documentation.xml/CommentRequired">
+    <properties>
+        <property name="methodWithOverrideCommentRequirement" value="Ignored" />
+        <property name="accessorCommentRequirement" value="Ignored" />
+        <property name="classCommentRequirement" value="Required" />
+        <property name="fieldCommentRequirement" value="Required" />
+        <property name="publicMethodCommentRequirement" value="Required" />
+        <property name="protectedMethodCommentRequirement" value="Required" />
+        <property name="enumCommentRequirement" value="Required" />
+        <property name="serialVersionUIDCommentRequired" value="Ignored" />
+        <property name="serialPersistentFieldsCommentRequired" value="Ignored" />
+    </properties>
+</rule>
+<!-- 7 -->
+<rule ref="category/java/codestyle.xml/MethodNamingConventions">
+    <properties>
+        <property name="methodPattern" value="[a-z][a-zA-Z0-9]*" />
+        <property name="staticPattern" value="[a-z][a-zA-Z0-9]*" />
+        <property name="nativePattern" value="[a-z][a-zA-Z0-9]*" />
+        <property name="junit3TestPattern" value="test[A-Z0-9][a-zA-Z0-9]*" />
+        <property name="junit4TestPattern" value="[a-z][a-zA-Z0-9]*" />
+        <property name="junit5TestPattern" value="[a-z][a-zA-Z0-9]*" />
+    </properties>
+</rule>
+<!-- 8 -->
+<rule ref="category/java/codestyle.xml/ClassNamingConventions">
+    <properties>
+        <property name="classPattern" value="[A-Z][a-zA-Z0-9]*" />
+        <property name="abstractClassPattern" value="[A-Z][a-zA-Z0-9]*" />
+        <property name="interfacePattern" value="[A-Z][a-zA-Z0-9]*" />
+        <property name="enumPattern" value="[A-Z][a-zA-Z0-9]*" />
+        <property name="annotationPattern" value="[A-Z][a-zA-Z0-9]*" />
+        <property name="utilityClassPattern" value="[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)" />
+    </properties>
+</rule>
+<!-- 9 -->
+<rule ref="category/apex/codestyle.xml/LocalVariableNamingConventions">
+    <properties>
+        <property name="finalLocalPattern" value="[a-z][a-zA-Z0-9]*" />
+        <property name="localPattern" value="[a-z][a-zA-Z0-9]*" />
+    </properties>
+</rule>
+<!-- 10 -->
+<rule ref="category/apex/bestpractices.xml/UnusedLocalVariable" />
+<!-- 11 -->
+<rule ref="category/java/design.xml/AvoidCatchingGenericException" />
+<!-- 12 -->
+<rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+    <properties>
+        <property name="problemDepth" value="5" />
+    </properties>
+</rule>
+<!-- 13 -->
+<rule ref="category/java/codestyle.xml/OnlyOneReturn" />
+<!-- 14 -->
+<rule ref="category/java/codestyle.xml/ShortMethodName">
+    <properties>
+        <property name="minimum" value="3" />
+    </properties>
+</rule>
+<!-- 15 -->
+<rule ref="category/java/codestyle.xml/ShortVariable">
+    <properties>
+        <property name="minimum" value="3" />
+    </properties>
+</rule>
+<!-- 16 -->
+<rule ref="category/java/codestyle.xml/UnnecessaryConstructor" />
+<!-- 17 -->
+<rule ref="category/java/codestyle.xml/AtLeastOneConstructor" />
+<!-- 18 -->
+<rule ref="category/java/performance.xml/StringToString" />
+<!-- 19 -->
+<rule ref="category/java/bestpractices.xml/UnusedImports" />
+<!-- 20 -->
+<rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
+
+</ruleset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

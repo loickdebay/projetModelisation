@@ -1,0 +1,25 @@
+Liste des 5 règles PMD que tu as choisi pour ton projet qui te semblent les plus importantes :
+
+GodClass : C'est important de ne pas avoir une classe qui est la principal classe du projet, il faut que la classe soit bien réparti.
+
+ShortMethodName : C'est important de ne pas avoir des méthodes qui sont courtes, c'est préférable d'avoir des méthodes qui ont un nom qui explique ce que fait la méthode.
+
+TooManyMethods : Comme GodClass, il faut que les méthodes soient réparties et pas tous dans une même classe.
+
+UnusedLocalVariable : C'est inutile d'avoir une variable qui n'est pas utiliser.
+
+CommentRequired : Des commentaires sont obligatoires pour la javadoc et pour expliquer une méthode à l'équipe de notre projet.
+
+---------------------------------------------------------
+
+Liste de 5 règles PMD qui posent actuellement problème dans ton projet Modélisation mais que tu n’as pas choisi :
+
+SystemPrintln : Ils seront supprimer de toutes façon en fin de projet, pour l'instant ils permettent de debug. 
+
+CompareObjectsWithEquals : Pour l'instant, on compte encore utiliser les méthodes equals.
+
+DataClass : Des classe qui enregistre des données, nous permettent de ne pas avoir de GodClass et pour séparer des méthodes.
+
+unusedAssignment : Ils seront supprimer comme on peut les voir à l'aide d'Eclipse.
+
+unusedImports : Ils seront supprimer après un CTRL + SHIFT + O et on les voient à l'aide d'Eclipse.

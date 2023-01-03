@@ -1,0 +1,45 @@
+5 règles les plus importantes pour le projet:
+
+    - <rule ref="category/java/design.xml/GodClass" />
+    
+    Elle prouve que notre classe est trop complexe et n'est pas orienté object
+
+    - <rule ref="category/java/documentation.xml/CommentRequired" />
+    
+    Notre projet a très peu de documentation donc vite rattraper se retard
+
+    - <rule ref="category/java/bestpractices.xml/ForLoopCanBeForeach" />
+
+    Une partie de notre projet en a pas mal donc essayer d'urgence de régler le problème
+
+    - <rule ref="category/java/codestyle.xml/FieldNamingConventions" />
+    
+    Notre enum en est remplis, se qui pourrait etre problematique pour plus tard
+
+    - <rule ref="category/java/bestpractices.xml/ArrayIsStoredDirectly" />
+    
+    Important de le faire le plus tot possible sinon gros rique dans le futur
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+5 règles qui posent problème mais que je n'ai pas choisi:
+
+    - <rule ref="category/java/codestyle.xml/MethodNamingConventions" />
+    
+    Elle est présente pas mal de fois dans le projet, mais ne pose pas de véritable problème
+
+    - <rule ref="category/java/bestpractices.xml/ArrayIsStoredDirectly" />
+    
+    Peut etre génant dans le futur mais pas tout de suite
+
+    - <rule ref="category/java/codestyle.xml/ShortVariable" />
+    
+    Ceci n'ai pas dangereux mais peut empecher la bonne lecture de notre programme
+
+    - <rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal" />
+    
+    Pas très important mais pour éviter tous risques à faire
+
+    - <rule ref="category/java/design.xml/ImmutableField" />
+
+

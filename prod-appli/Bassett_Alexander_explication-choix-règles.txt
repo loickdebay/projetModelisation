@@ -1,0 +1,43 @@
+<!-- 1 -->
+AvoidDeeplyNestedIfStmts
+
+c'est illisible et ca peut etre refactoré proprement
+<!-- 2 -->
+MethodNamingConventions
+
+convention (libisilité)
+<!-- 3 -->
+CommentRequired
+
+savoir à quoi sert chaque methode sans devoir déduire c pas mal
+<!-- 4 -->
+ShortVariable
+
+lisibilité + compréhensibilité
+<!-- 5 -->
+AtLeastOneConstructor
+
+ne pas laisser le constructeur pas defaut
+
+
+<!-- 1 -->
+AvoidCatchingGenericException
+
+
+<!-- 2 -->
+AvoidInstantiantingInLoops
+
+
+<!-- 3 -->
+CloseResource
+
+fuite de memoire pour le scanner
+<!-- 4 -->
+CompareObjectWithEquals
+
+adherer a la methode de meme nom pour tous les objets semble pertinent
+<!-- 5 -->
+ExcessiveMethodeLength
+
+refactorer en plusieurs methode pour la lisibilité
+

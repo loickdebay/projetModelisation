@@ -1,0 +1,50 @@
+DEBAY Loïck - Groupe G
+
+***************************************
+Liste des 5 règles importantes choisies
+***************************************
+
+- GodClass
+    -> les classes doivent être organisées de manière à se retrouver facilement dans le projet, une seule classe contrôlant tout porte préjudice à la clarté du projet
+
+- ShortVariable
+    -> il est préférable que le nom d'une variable se suffise à lui même pour comprendre son utilité, les variables de type "x" sont à éviter
+
+- UnusedImports
+    -> Pour rendre le code le plus clair possible, il est préférable de réduire la taille des classes au maximum en supprimant tous les éléments inutilisés
+
+- TooManyMethods
+    -> Comment pour les imports non utilisés, afin de rendre le projet clair, éviter de surcharger les classes de méthodes est préférable, il vaut mieux séparer en plusieurs classes
+
+- CommentRequired
+    -> Une documentation complète est nécessaire à la bonne compréhension d'un programme par son utilisateur, commenter toutes les fonctions est donc nécessaire
+
+***********************************************
+Liste des 5 règles posant problème non choisies
+***********************************************
+
+- SimplifyBooleanReturns
+    -> Permet une réduction considérable de la taille d'une méthode booléene.
+
+- DataClass
+    -> évite au projet de contenir des classes "inutiles" ne contenant 
+
+- AvoidFieldNameMatchingMethodName
+    -> le fait d'avoir des noms similaires entre une méthode et un argument peut porter à confusion facilement
+
+- NcssCount 
+    -> éviter les méthodes trop longues permet une lisibilité améliorée dans les classes ainsi que de raccourcir la longueur des classes 
+
+- UnnecessaryLocalBeforeReturn
+    -> Permet de simplifier les expressions de retournement de valeur, permettant également de simplifier toute la structure du projet
+
+
+
+
+
+
+
+
+
+
+
